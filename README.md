@@ -3,6 +3,7 @@
 
 ## 🩺 AI-powered Clinical Intake Assistant + Diagnostic Triage System
 A LangGraph-based conversational medical assistant that leverages Retrieval-Augmented Generation (RAG), FAISS vector search, and large language models (LLMs) to streamline patient intake, triage symptoms, and visually interpret uploaded medical reports — all through an intuitive Streamlit interface.
+<br/>
 
 ## 🔍 Overview
 This project simulates an intelligent clinical assistant capable of:
@@ -31,7 +32,7 @@ This project simulates an intelligent clinical assistant capable of:
 - ✅ Medical report visualization using Plotly for enhanced interpretation
 <br/>
 
-📁 Project Structure
+## 📁 Project Structure
 
 ```
 Medic_AI_Chatbot/
@@ -49,8 +50,8 @@ Medic_AI_Chatbot/
 ## 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/5488619f-d795-4507-9ba7-ceaaa3620f5f)
-
 <br/>
+
 ## 🧑‍⚕️ Use Cases
 - Clinical triage in telemedicine apps
 - Medical chatbots for hospitals or diagnostics
