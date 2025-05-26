@@ -1,4 +1,4 @@
-# AI-Clinical-Assistant-using-LangGraph-FAISS
+# AI-Clinical-Assistant using LangGraph + FAISS
 <br/>
 
 ## 🩺 AI-powered Clinical Intake Assistant + Diagnostic Triage System
