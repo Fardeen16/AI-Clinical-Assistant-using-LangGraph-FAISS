@@ -9,16 +9,18 @@ This project simulates an intelligent clinical assistant capable of:
 - Using RAG with FAISS to retrieve relevant medical information
 - Responding with LLM-powered diagnosis suggestions
 - Visually plotting uploaded medical reports using Plotly for clear insights
-
+<br/>
 
 ## 🧠 Tech Stack & Tools
-Component	Technology Used
-Language Model	🤖 [Mistral-7B-Instruct (HuggingFace)]
-Retrieval Engine	🧠 FAISS + HuggingFace Embeddings
-Orchestration	🔁 LangGraph (LangChain agents)
-Frontend UI	🖥️ Streamlit
-Visualization	📊 Plotly (for graphical report insights)
-Data Preprocessing	📚 PDF Loaders + Chunking
+| Component |	Technology Used |
+| --- | --- |
+| Language Model | 🤖 [Mistral-7B-Instruct (HuggingFace)] |
+| Retrieval Engine |	🧠 FAISS + HuggingFace Embeddings |
+| Orchestration |	🔁 LangGraph (LangChain agents) |
+| Frontend UI |	🖥️ Streamlit |
+| Visualization |	📊 Plotly (for graphical report insights) |
+| Data Preprocessing |	📚 PDF Loaders + Chunking |
+<br/>
 
 ## 🚀 Features
 - ✅ LangGraph-powered memory graph for intelligent multi-turn conversations
@@ -26,25 +28,24 @@ Data Preprocessing	📚 PDF Loaders + Chunking
 - ✅ LLM integration via HuggingFace InferenceEndpoint (Mistral-7B)
 - ✅ Streamlit chatbot UI with persistent session history
 - ✅ Medical report visualization using Plotly for enhanced interpretation
+<br/>
 
 📁 Project Structure
-bash
-Copy
-Edit
-Medic_AI_Chatbot/
-├── connect_memory_with_llm.py   # Phase 2 - LangGraph + FAISS + Mistral
+
+`Medic_AI_Chatbot/`
+`├── connect_memory_with_llm.py   # Phase 2 - LangGraph + FAISS + Mistral
 ├── embed_pdfs_to_faiss.py       # Phase 1 - PDF loader + chunking + FAISS
 ├── medicbot_app.py              # Phase 3 - Streamlit chatbot UI
 ├── vectorstore/
 │   └── db_faiss/                # Stored vector embeddings (FAISS index)
 ├── data/                        # Medical reference PDFs
 ├── requirements.txt
-└── README.md
-⚙️ Setup Instructions
+└── README.md`
+<br/>
+
+
+## ⚙️ Setup Instructions
 1. Clone the repo
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/medic-ai-chatbot.git
 cd medic-ai-chatbot
 2. Create and activate virtual environment
