@@ -1,6 +1,6 @@
 # AI-Clinical-Assistant-using-LangGraph-FAISS
 
-# 🩺 AI-powered Clinical Intake Assistant + Diagnostic Triage System
+## 🩺 AI-powered Clinical Intake Assistant + Diagnostic Triage System
 A LangGraph-based conversational medical assistant that leverages Retrieval-Augmented Generation (RAG), FAISS vector search, and large language models (LLMs) to streamline patient intake, triage symptoms, and visually interpret uploaded medical reports — all through an intuitive Streamlit interface.
 
 ## 🔍 Overview
@@ -11,7 +11,7 @@ This project simulates an intelligent clinical assistant capable of:
 - Visually plotting uploaded medical reports using Plotly for clear insights
 
 
-🧠 Tech Stack & Tools
+## 🧠 Tech Stack & Tools
 Component	Technology Used
 Language Model	🤖 [Mistral-7B-Instruct (HuggingFace)]
 Retrieval Engine	🧠 FAISS + HuggingFace Embeddings
@@ -20,7 +20,7 @@ Frontend UI	🖥️ Streamlit
 Visualization	📊 Plotly (for graphical report insights)
 Data Preprocessing	📚 PDF Loaders + Chunking
 
-🚀 Features
+## 🚀 Features
 - ✅ LangGraph-powered memory graph for intelligent multi-turn conversations
 - ✅ RAG-based symptom triage from medical PDFs using vector retrieval
 - ✅ LLM integration via HuggingFace InferenceEndpoint (Mistral-7B)
