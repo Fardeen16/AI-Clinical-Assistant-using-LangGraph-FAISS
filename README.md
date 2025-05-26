@@ -25,11 +25,11 @@ This project simulates an intelligent clinical assistant capable of:
 <br/>
 
 ## 🚀 Features
-- ✅ LangGraph-powered memory graph for intelligent multi-turn conversations
-- ✅ RAG-based symptom triage from medical PDFs using vector retrieval
-- ✅ LLM integration via HuggingFace InferenceEndpoint (Mistral-7B)
-- ✅ Streamlit chatbot UI with persistent session history
-- ✅ Medical report visualization using Plotly for enhanced interpretation
+-  LangGraph-powered memory graph for intelligent multi-turn conversations
+-  RAG-based symptom triage from medical PDFs using vector retrieval
+-  LLM integration via HuggingFace InferenceEndpoint (Mistral-7B)
+-  Streamlit chatbot UI with persistent session history
+-  Medical report visualization using Plotly for enhanced interpretation
 <br/>
 
 ## 📁 Project Structure
