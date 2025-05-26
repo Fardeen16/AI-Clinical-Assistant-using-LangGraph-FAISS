@@ -5,6 +5,7 @@
 A LangGraph-based conversational medical assistant that leverages Retrieval-Augmented Generation (RAG), FAISS vector search, and large language models (LLMs) to streamline patient intake, triage symptoms, and visually interpret uploaded medical reports — all through an intuitive Streamlit interface.
 <br/>
 
+
 ## 🔍 Overview
 This project simulates an intelligent clinical assistant capable of:
 - Conversationally collecting patient symptoms and history
