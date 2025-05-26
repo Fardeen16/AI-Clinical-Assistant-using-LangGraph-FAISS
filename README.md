@@ -1,4 +1,5 @@
 # AI-Clinical-Assistant-using-LangGraph-FAISS
+<br/>
 
 ## 🩺 AI-powered Clinical Intake Assistant + Diagnostic Triage System
 A LangGraph-based conversational medical assistant that leverages Retrieval-Augmented Generation (RAG), FAISS vector search, and large language models (LLMs) to streamline patient intake, triage symptoms, and visually interpret uploaded medical reports — all through an intuitive Streamlit interface.
@@ -32,82 +33,26 @@ This project simulates an intelligent clinical assistant capable of:
 
 📁 Project Structure
 
-`Medic_AI_Chatbot/`
-`├── connect_memory_with_llm.py   # Phase 2 - LangGraph + FAISS + Mistral
+```
+Medic_AI_Chatbot/
+├── connect_memory_with_llm.py   # Phase 2 - LangGraph + FAISS + Mistral
 ├── embed_pdfs_to_faiss.py       # Phase 1 - PDF loader + chunking + FAISS
 ├── medicbot_app.py              # Phase 3 - Streamlit chatbot UI
 ├── vectorstore/
 │   └── db_faiss/                # Stored vector embeddings (FAISS index)
 ├── data/                        # Medical reference PDFs
 ├── requirements.txt
-└── README.md`
+└── README.md
+```
 <br/>
 
+## 📸 Screenshots
 
-## ⚙️ Setup Instructions
-1. Clone the repo
-git clone https://github.com/yourusername/medic-ai-chatbot.git
-cd medic-ai-chatbot
-2. Create and activate virtual environment
-bash
-Copy
-Edit
-python -m venv medicEnv
-source medicEnv/bin/activate   # or .\medicEnv\Scripts\activate on Windows
-3. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Set HuggingFace Token
-Create a .env file or export your token:
+![image](https://github.com/user-attachments/assets/5488619f-d795-4507-9ba7-ceaaa3620f5f)
 
-env
-Copy
-Edit
-HF_TOKEN=your_huggingface_token_here
-▶️ Run the App
-Embed medical PDFs (only once):
-bash
-Copy
-Edit
-python embed_pdfs_to_faiss.py
-Start chatbot:
-bash
-Copy
-Edit
-streamlit run medicbot_app.py
-📸 Screenshots
-Chatbot Interface	Report Visualization
-
-🧑‍⚕️ Use Cases
-Clinical triage in telemedicine apps
-
-Medical chatbots for hospitals or diagnostics
-
-AI-assisted patient data intake
-
-Medical education or decision support tools
-
-🧩 Future Enhancements
-🔍 ICD-10 or SNOMED disease code suggestions
-
-🗂️ Integration with electronic health records (EHR)
-
-🧾 Summarization of uploaded lab reports
-
-🌐 Multilingual symptom triage
-
-📜 License
-This project is licensed under the MIT License.
-
-🙌 Acknowledgements
-LangGraph
-
-HuggingFace
-
-FAISS by Facebook AI
-
-Streamlit
-
-Plotly
+<br/>
+## 🧑‍⚕️ Use Cases
+- Clinical triage in telemedicine apps
+- Medical chatbots for hospitals or diagnostics
+- AI-assisted patient data intake
+- Medical education or decision support tools
