@@ -50,6 +50,10 @@ Medic_AI_Chatbot/
 ## 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/5488619f-d795-4507-9ba7-ceaaa3620f5f)
+
+
+![image](https://github.com/user-attachments/assets/3d49b484-e7b6-4ebf-a022-8487b51b9fe7)
+
 <br/>
 
 ## 🧑‍⚕️ Use Cases
